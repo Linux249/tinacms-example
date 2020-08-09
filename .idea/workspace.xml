@@ -10,7 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2d7fa91-69cb-4fe8-b63e-93f4a61a6122" name="Default Changelist" comment="" />
+    <list default="true" id="c2d7fa91-69cb-4fe8-b63e-93f4a61a6122" name="Default Changelist" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/LineChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/charts/LineChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/charts/ScatterChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/charts/Tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -98,7 +112,7 @@
       <updated>1595694723468</updated>
       <workItem from="1595694727795" duration="7534000" />
       <workItem from="1595754183496" duration="3132000" />
-      <workItem from="1597002068217" duration="319000" />
+      <workItem from="1597002068217" duration="1397000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add LineChart">
       <created>1595696089230</created>
@@ -184,38 +198,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="107" key="CommitChangelistDialog2" timestamp="1595699386129">
+    <state x="585" y="107" key="CommitChangelistDialog2" timestamp="1597002951813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="107" key="CommitChangelistDialog2/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1595699386129" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595697276211">
+    <state x="585" y="107" key="CommitChangelistDialog2/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597002951813" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1597002685591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1595697276211" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1595703707491">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597002685591" />
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1597003472539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1595703707491" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1595703707490">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597003472539" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1597003472539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1595703707490" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1595703707490">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597003472539" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1597003472539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1595703707490" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1595703707490">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597003472539" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1597003472539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1595703707490" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597003472539" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1595695428860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1595695428860" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1595697451529">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597002322276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1595697451529" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597002322276" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597002669976">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597002669976" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1597003016022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1597003016022" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1595696378164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

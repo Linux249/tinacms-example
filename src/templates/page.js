@@ -5,7 +5,6 @@ import { Form, FormBlock } from '../blocks/form';
 import { Title, TitleBlock } from '../blocks/title';
 import { Image, ImageBlock } from '../blocks/image';
 import { Content, ContentBlock } from '../blocks/content';
-import { LineChart, LineChartBlock } from '../blocks/LineChart';
 import { PageLayout } from '../components/pageLayout';
 import { useLocalJsonForm } from 'gatsby-tinacms-json';
 
@@ -33,23 +32,6 @@ export default function Page({ data }) {
                                 )
                                     return (
                                         <Content
-                                            data={data}
-                                            html={
-                                                page
-                                                    .childrenPagesJsonBlockMarkdown[
-                                                    i
-                                                ].childMarkdownRemark.html
-                                            }
-                                        />
-                                    );
-                                break;
-                            case 'LineChartBlock':
-                                if (
-                                    data.lineChart &&
-                                    page.childrenPagesJsonBlockMarkdown[i]
-                                )
-                                    return (
-                                        <LineChart
                                             data={data}
                                             html={
                                                 page
@@ -155,7 +137,6 @@ const PageForm = {
                 ImageBlock,
                 FormBlock,
                 ContentBlock,
-                LineChartBlock,
             },
         },
     ],
@@ -188,7 +169,6 @@ export const pageQuery = graphql`
             blocks {
                 _template
                 content
-                lineChart
                 labelX
                 labelY
                 name
