@@ -1,0 +1,44 @@
+{
+  "title": "Neue Produkte",
+  "path": "/about",
+  "blocks": [
+    {
+      "_template": "TitleBlock",
+      "title": "Fancy Cahrt here in this article",
+      "underline": false,
+      "content": "",
+      "center": false
+    },
+    {
+      "content": "",
+      "center": false,
+      "_template": "LineChartBlock",
+      "lineChart": "{\n\n    \"data\": [\n        [\n            { \"date\": \"2017, 1, 1\", \"value\": 1 },\n            { \"date\": \"2017, 2, 2\", \"value\": 2 },\n            { \"date\": \"2017, 3, 3\", \"value\": 6 },\n            { \"date\": \"2017, 4, 4\", \"value\": 4 },\n            { \"date\": \"2017, 5, 5\", \"value\": 4 },\n            { \"date\": \"2017, 6, 6\", \"value\": 0 },\n            { \"date\": \"2017, 7, 7\", \"value\": 1.5 },\n            { \"date\": \"2017, 8, 8\", \"value\": 2 },\n            { \"date\": \"2017, 9, 9\", \"value\": 1 }\n        ],\n        [\n            { \"date\": \"2017, 1, 1\", \"value\": 6 },\n            { \"date\": \"2017, 2, 2\", \"value\": 4 },\n            { \"date\": \"2017, 3, 3\", \"value\": 3 },\n            { \"date\": \"2017, 4, 4\", \"value\": 8 },\n            { \"date\": \"2017, 5, 5\", \"value\": 7 },\n            { \"date\": \"2017, 6, 6\", \"value\": 2 },\n            { \"date\": \"2017, 7, 7\", \"value\": 5 },\n            { \"date\": \"2017, 8, 8\", \"value\": 1 },\n            { \"date\": \"2017, 9, 8\", \"value\": 4 }\n        ]\n    ]\n}",
+      "labelX": "Label Bottom",
+      "labelY": "Text Left"
+    },
+    {
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expressa vero in iis aetatibus, quae iam confirmatae sunt. At, si voluptas esset ato, physicum se voluit.\n\n```javascript\n\nfunction fizzBuzz(length, markers){\n    \tvar output;\n    \tfor(var i=1;i<=length;i++){\n    \t\toutput = '';\n    \t\tvar number;\n    \t\tvar term;\n    \t\tfor(var j=0;j<markers.length;j++){\n    \t\t\tnumber = markers[j].number;\n    \t\t\tterm = markers[j].term;\n    \t\t\tif(i%number === 0){\n    \t\t\t\toutput+=term;\n    \t\t\t}\n    \t\t}\n    \t\tif(output === '') {\n    \t\t\toutput+=i;\n    \t\t}\n    \t\tprint(output);\n    \t}\n    }\n```\n\nHonesta oratio, Socratica, Platonis etiam. Ergo illi intellegunt quid Epicurus dicat, ego non intellego? Maximas vero virtutes iacere omnis necesse est voluptate dominante. At multis malis affectus. Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis. Bonum integritas corporis: misera debilitas.\n\n    Test\n    \n    \n\n> Perspicuum est enim, nisi aequitas, fides, iustitia proficiscantur a natura, et si omnia haec ad utilitatem referantur, virum bonum non posse reperiri;",
+      "_template": "ContentBlock",
+      "center": false
+    },
+    {
+      "content": "```LineChart\n{\n    test: 1\n}\n```",
+      "center": false,
+      "_template": "ContentBlock"
+    }
+  ],
+  "displayTitle": true,
+  "hero": {
+    "headline": "Hero Headling",
+    "textline": "TExt inside Herp",
+    "ctas": [
+      {
+        "label": "Aktion Label",
+        "link": "",
+        "primary": true,
+        "arrow": true
+      }
+    ]
+  }
+}
